@@ -103,3 +103,5 @@ Please leave a comment if you agree or disagree with me, I'm always happy to dis
 nicolas dot parot dot alvarez at gmail
 
 CC-BY 4.0 Nicolas Parot Alvarez on the text, meme derivative and diagram
+
+Originally posted here: https://www.linkedin.com/pulse/data-jobs-why-what-you-need-probably-scientist-nicolas-parot-alvarez/
