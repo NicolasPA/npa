@@ -1,13 +1,14 @@
 # Prefect permission denied
 
-Documenting a solution to an error durring the installation Prefect: 
+Documenting a solution to an error during the installation of Prefect: 
 https://docs.prefect.io/core/getting_started/installation.html
 
 At step:
-
 ```shell
 sudo prefect server start
 ```
+
+Error:
 ```shell
 Traceback (most recent call last):
   File "/home/nico/code/prefect-test/venv/bin/prefect", line 8, in <module>
@@ -35,8 +36,8 @@ Traceback (most recent call last):
 PermissionError: [Errno 13] Permission denied: '/tmp/docker-compose.yml'
 ```
 
-I'm On Arch Linux using community package Docker 1:20.10.7-1.  
-Running a docker requires `sudo`, for example `sudo docker run hello-world` works fine.
+I'm on Arch Linux using community package Docker 1:20.10.7-1.  
+Running a docker on my install requires `sudo`, for example `sudo docker run hello-world` works fine.
 
 So my intuition was that this file `/tmp/docker-compose.yml` would need to be readable by `root`.
 
