@@ -1,2 +1,3 @@
 # npa
-Personal website and articles
+
+Personal writings about data and coding.
